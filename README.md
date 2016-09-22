@@ -1,7 +1,5 @@
 # Ways_Of_Moving_Tango
 
-## This code compiles a series of javascript functions which are used on the "Tango for us Tow/ Too" performance piece. For more information on this project/ research please follow the link above: 
+## This code compiles a series of javascript functions which are used on the "Tango for us Tow/ Too" performance piece. For more information on this project/ research please follow the link: 
 
 * https://jobcb.github.io/ways_of_moving/index_tango.html
-
-### This script accompanies various Tango soundtracks, body movements and the unique atmosphere shared amongst the audience. 
