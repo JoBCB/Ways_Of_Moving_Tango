@@ -121,13 +121,46 @@ setTimeout("ocho()",15000);
 //x = document.querySelector(".gb_ve.gb_wf");
 //x.style.visibility = "hidden";
 
-function noTranslation(){
-document.querySelector("#gt-ft").style.visibility="hidden";
+//document.querySelector(".gb_Wa.gb_ec").remove();
+
+function off_stage(){
 document.querySelector("#gt-langs").style.visibility="hidden";
-document.querySelector("#gt-pb-sw1").style.visibility="hidden";
+document.querySelector(".gb_Dc.gb_Qg.gb_R").style.visibility="hidden";
 document.querySelector("#gt-appbar").style.visibility="hidden";
 document.querySelector("#gt-ft-res").style.visibility="hidden";
 }
+
+//- - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+var textarray = [
+"This choreography",
+"spaceless and timeless.",
+"A language in circulation,",
+"nomadic.",
+"Self and Other - crossing terriories,",
+"a complex network of (mis)understood directions and rhythms.",
+"Su forma universal y que esa especie venturosa tiene, aunque humilde, un lugar en el universo.",
+"Al bailar, se dialoga constantemente sin pronunciar palabra,",
+"the resounding silence,",
+"no words for this language, only two bodies can speak it,",
+"only bodies",
+"",
+"every body"
+];
+
+var demo_input = document.querySelector('.goog-textarea.short_text')
+
+function Hablar_Escuchar() {
+
+var rannum= Math.floor(Math.random()*textarray.length);
+demo_input.value =textarray[rannum];
+};
+
+// on google translate, open the web console and let the dance begin:
+//setInterval("Hablar_Escuchar()", 1000) 
+
+
 
 function double ( ){
 document.querySelector(".gt-cd.gt-cd-md").style.textShadow = "650px 0.1px 0.1px #000000";  
@@ -199,33 +232,6 @@ window.next_letter = function() {
     }
 }*/
 
-//- - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - option_2
-
-
-var textarray = [
-"This choreography",
-"it is spaceless and timeless.",
-"A language in circulation,",
-"nomadic.",
-"Self and Other - crossing terriories,",
-"a complex network of (mis)understood directions and rhythms.",
-"Su forma universal y que esa especie venturosa tiene, aunque humilde, un lugar en el universo.",
-"The resounding silence,",
-"no words for this language, only two bodies can speak it,",
-"only bodies.",
-"every body."
-];
-
-var demo_input = document.querySelector('.goog-textarea.short_text')
-
-function Hablar_Escuchar() {
-
-var rannum= Math.floor(Math.random()*textarray.length);
-// document.querySelector('.goog-textarea.short_text').innerHTML=textarray[rannum];
-demo_input.value =textarray[rannum];
-};
-
-//setInterval("Hablar_Escuchar()", 1000) 
 
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
