@@ -2,4 +2,4 @@
 
 ## This code compiles a series of javascript functions which are used on the "Tango for us Tow/ Too" performance piece. For more information on this project/ research please follow the link: 
 
-* https://jobcb.github.io/ways_of_moving/index_tango.html
+* https://joanachicau.com/ways_of_moving/index_tango.html
