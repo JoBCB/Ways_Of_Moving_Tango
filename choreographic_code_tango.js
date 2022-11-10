@@ -1,8 +1,8 @@
-//  ____ _                                                _     _                 ____          _         __   __                                       
-// / ___| |__   ___  _ __ ___  ___   __ _ _ __ __ _ _ __ | |__ (_) ___           / ___|___   __| | ___   |  | |  |
-//| |   | '_ \ / _ \| '__/ _ \/ _ \ / _` | '__/ _` | '_ \| '_ \| |/ __|  _____  | |   / _ \ / _` |/ _ (  |  | |  |
-//| |___| | | | (_) | | |  __/ (_) | (_| | | | (_| | |_) | | | | | (__  |_____| | |__| (_) | (_| |  __/  |  | |  |
-// \____|_| |_|\___/|_|  \___|\___/ \__, |_|  \__,_| .__/|_| |_|_|\___|          \____\___/ \__,_|\___|  |__| |__| 
+//  ____ _                                                _     _                 ____          _                                               
+// / ___| |__   ___  _ __ ___  ___   __ _ _ __ __ _ _ __ | |__ (_) ___           / ___|___   __| | ___  
+//| |   | '_ \ / _ \| '__/ _ \/ _ \ / _` | '__/ _` | '_ \| '_ \| |/ __|  _____  | |   / _ \ / _` |/ _ (  
+//| |___| | | | (_) | | |  __/ (_) | (_| | | | (_| | |_) | | | | | (__  |_____| | |__| (_) | (_| |  __/  
+// \____|_| |_|\___/|_|  \___|\___/ \__, |_|  \__,_| .__/|_| |_|_|\___|          \____\___/ \__,_|\___|  
 //                                  |___/          |_|                                                                                          
 
 //a GLOSSARY for Tango
@@ -10,11 +10,11 @@
 // ---------------------------------------- Intro:
 
 
-function new_Title () {
+function New_Title () {
 document.querySelector("#title1").style.display = "none";
 document.querySelector("#title2").style.color = "white";
 };
-//new_Title ()
+//New_Title ()
 
 
 function Position_Zero ()  {
@@ -106,16 +106,15 @@ function ocho() {
 }
 setTimeout("ocho()",15000); 
 
-//};
 
-
-// ---------------------------------------- ON GOOGLE TRANSLATE
-
-  function PositionZero () {
+function Position_Zero () {
   var url = window.open('https://translate.google.com/#en/es/Hello%20World!', '_blank');
   window.location.href = url;
   url.focus();
 }
+
+// ---------------------------------------- ON GOOGLE TRANSLATE
+// on google translate, open the web console and let the dance begin:
 
 
 //x = document.querySelector(".gb_ve.gb_wf");
@@ -131,22 +130,27 @@ document.querySelector("#gt-ft-res").style.visibility="hidden";
 }
 
 //- - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+//- - - - - Change Skin
 
-// on google translate, open the web console and let the dance begin:
+//document.querySelector("body").style.background="repeating-linear-gradient(transparent, black 40px), repeating-linear-gradient(0.25turn, transparent, black 20px)"
 
+document.querySelector("body").style.background="linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
+document.querySelector("body").style.backgroundSize="60px 60px";
+
+//- - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 var count='0';
 var Texts= new Array ();
-Texts[0]= "Al bailar, se dialoga constantemente sin pronunciar palabra,",
+Texts[0]= "A dialogue, pronouncing no words",
 Texts[1]= "the resounding silence,",
-Texts[2]= "the silent words of Tango de-tranquilize",
-Texts[3]="",
-Texts[4]="A spaceless and timeless choreography",
-Texts[5]="A complex network of plural directions and rhythms",
+Texts[2]= "echoes",
+Texts[3]= "spaceless",
+Texts[4]= "and timeless choreographies.",
+Texts[5]= "A complex network of plural directions and rhythms",
 Texts[6]= "temporal horizon of virtual possibilities",
-Texts[7]="A language in circulation,",
-Texts[8]="a language that introduces you to a movement,",
-Texts[9]= " that invites you to respond",
+Texts[7]= "A language in circulation,",
+Texts[8]= "a language that introduces you to a movement,",
+Texts[9]= " invites you to respond",
 Texts[10]= "nomadic.",
 Texts[11]= "Su forma universal y que esa especie venturosa tiene,",
 Texts[12]= "aunque humilde, un lugar en el universo.",
@@ -156,7 +160,9 @@ Texts[15]= "two bodies",
 Texts[16]= "bodies, too",
 Texts[17]= "everybody."
 
-var demo_input = document.querySelector('#tw-source-text-ta')
+var demo_input = document.querySelector('.er8xn')
+
+// #tw-source-text-ta
 
 function Improvised_Sequence_or_Phrasing() {
     demo_input.value = Texts[count];
@@ -165,56 +171,59 @@ function Improvised_Sequence_or_Phrasing() {
 
     var ev = document.createEvent('Events');
     ev.initEvent('input', true, true);
-    document.querySelector('#tw-source-text-ta').dispatchEvent(ev);
+    document.querySelector('.er8xn').dispatchEvent(ev);
 
 }
 setInterval("Improvised_Sequence_or_Phrasing()", 4000) 
 
+//#tw-src-spkr-button 
 
 function Loud() {
-        document.querySelector("#tw-src-spkr-button").click()
+        document.querySelector(".m0Qfkd button").click()
 }
-setInterval("Loud()", 3000) 
+setInterval("Loud()", 4000) 
+
+//- - - - - Change Skin
+
+document.querySelector('textarea').style.fontSize="300px";
+document.querySelector('textarea').style.position="absolute";
+document.querySelector("textarea").style.lineHeight="300px";
+document.querySelector("textarea").style.letterSpacing="20px";
+document.querySelector('textarea').style.width="1200px";
+
+//- - - - - 
+
+// BREATHING
+function Breathing() {
+  var zooming = document.querySelector("body");
+  currentScale = 1;
+  currenttime = setInterval(function() {
+  zooming.style.transform="scale(" + currentScale + ")";
+  currentScale = Math.random() * 5
+  }, 800);
+}
+
+// Breathing()
+
+function No_Breath() {
+clearInterval(currenttime);
+}
+// No_Breath()
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+//- - - - - Change Skin
 
-document.querySelector('#tw-source-text-ta').style.fontSize="300px";
-document.querySelector('#tw-source-text-ta').style.width="1200px";
-document.querySelector("#tw-source-text-ta").style.lineHeight="300px";
-document.querySelector("#tw-source-text-ta").style.letterSpacing="20px";
-document.querySelector("#tw-source-text-container").style.overflow="visible";
-
-document.querySelector('#tw-source-text-container').style.opacity="0.5";
+document.querySelector('body').style.opacity="0.5";
 document.querySelector('body').style.transform="scale(0.5)";
 document.querySelector("body").style.writingMode="vertical-lr";
 document.querySelector("body").style.textOrientation="upright";
 
-document.querySelector("body").style.transform="rotateY(180deg)"
-
-//document.querySelector("body").style.background="repeating-linear-gradient(transparent, black 40px), repeating-linear-gradient(0.25turn, transparent, black 20px)"
-
-//document.querySelector("body").style.background="linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
-//document.querySelector("body").style.backgroundSize="60px 60px";
-
-
-function DancingFloor() {
+function Dancing_Floor() {
+    var r = Math.random() * 100;
     document.querySelector("body").style.backgroundImage="linear-gradient(" +  Math.random() * 360  + "deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-" +  Math.random() * 360  + "deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
-}
-setInterval("DancingFloor()", 1000) 
-
-
-// BREATHING
-function breathing() {
-    var zooming = document.querySelector("body");
-    currentScale = 1;
-    currenttime = setInterval(function() {
-    zooming.style.transform="scale(" + currentScale + ")";
-    currentScale = Math.random() * 5
-    }, 800);
-}
-
-// breathing()
-
+    document.querySelector("body").style.backgroundSize= Math.random() * 10 + "px" + Math.random() * 10  + "px";
+  }
+setInterval("Dancing_Floor()", 1000) 
 
 
 function Hablar() {
@@ -226,27 +235,27 @@ document.querySelector("#tw-target").style.backgroundColor = "#000000";
 } 
 
 
-function rotate () {
-    var centro = document.querySelector("body"),
+function Giro () {
+    var center = document.querySelector("body"),
     deg = 10;
-    des_centro = setInterval(function() {
-    centro.style.transform = "rotateY(" + deg + "deg)";
+    decenter = setInterval(function() {
+    center.style.transform = "rotateY(" + deg + "deg)";
     deg = (deg + 10) % 360
     }, 80); 
     } 
-//rotate ()
+//Giro ()
 
 
-function pause () {
-    clearInterval(des_centro);
+function Pause () {
+    clearInterval(decenter);
     } 
-// pause ()  
+// Pause ()  
 
-function offStage () {
+function Off_Stage () {
     document.body.innerHTML = '';
     document.head.innerHTML = '';      
 }
-//offStage ()
+// Off_Stage ()
 
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
