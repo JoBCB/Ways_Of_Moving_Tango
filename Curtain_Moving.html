@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>End(less) / End(more)</title>
+
+<style type="text/css">
+.path {
+  stroke-dasharray: 7000;
+  stroke-dashoffset: 7000;
+  animation: dash 560s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="100px" width="1920px" height="2000px"
+   viewBox="0 0 1920 2000" enable-background="new 0 0 1920 2000" xml:space="preserve">
+
+
+<line class='path' fill="none" stroke="black" stroke-width="4500" stroke-miterlimit="10" x1="0" y1="0" x2="1900" y2="0"/>
+</svg>
+
+<audio id="audio" src="sounds/final.mp3"
+  autoplay>
+</body>
+
+<script type="text/javascript">
+
+var audio = document.getElementById('audio');
+function enableAutoplay() {
+    audio.autoplay = true;
+    audio.load();
+}
+</script>
+</html>
