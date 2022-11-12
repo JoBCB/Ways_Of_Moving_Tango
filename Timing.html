@@ -137,35 +137,21 @@ time:after { /* seconds */
 	// - - - - -  PAUSE - - - - - 
 	
 	var aud = document.getElementById("my_audio1");
-	
-	function pauseAudio1() {
-		aud.pause();
-	}
-	
 	var a = document.getElementById("my_audio3");
-	
-	function pauseAudio3() {
-		a.pause();
-	}
-	
 	var u = document.getElementById("my_audio4");
-	
-	function pauseAudio4() {
-		u.pause();
-	}
-	
 	var auu = document.getElementById("my_audio6");
-	
-	function pauseAudio6() {
+
+
+	function Pause_Audio() {
+		a.pause();
+		aud.pause();
+		u.pause();
 		auu.pause();
 	}
 	
 	function pauseFinal() {
    		last.pause();
-	}
-
-	//pauseAudio()
-	
+	}	
 	
 	var x = document.getElementById('my_audio');
 	function getCurTime() { 

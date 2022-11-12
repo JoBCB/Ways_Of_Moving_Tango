@@ -113,23 +113,15 @@ function Position_Zero () {
   url.focus();
 }
 
-// ---------------------------------------- ON GOOGLE TRANSLATE
+//- - - - 
+//- - - - -  - - - - -
+//- - - - -  - - - - - - - - - - - -
+//- - - - -  - - - - - - - - - - - - - - - - - - 
+//- - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// ------------------- ON MIS—TRANSLATION --------------------- 
 // on google translate, open the web console and let the dance begin:
 
-
-//x = document.querySelector(".gb_ve.gb_wf");
-//x.style.visibility = "hidden";
-
-//document.querySelector(".gb_Wa.gb_ec").remove();
-
-function off_stage(){
-document.querySelector("#gt-langs").style.visibility="hidden";
-document.querySelector(".gb_Dc.gb_Qg.gb_R").style.visibility="hidden";
-document.querySelector("#gt-appbar").style.visibility="hidden";
-document.querySelector("#gt-ft-res").style.visibility="hidden";
-}
-
-//- - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 //- - - - - Change Skin
 
 //document.querySelector("body").style.background="repeating-linear-gradient(transparent, black 40px), repeating-linear-gradient(0.25turn, transparent, black 20px)"
@@ -162,8 +154,6 @@ Texts[17]= "everybody."
 
 var demo_input = document.querySelector('.er8xn')
 
-// #tw-source-text-ta
-
 function Improvised_Sequence_or_Phrasing() {
     demo_input.value = Texts[count];
     count++;
@@ -174,24 +164,13 @@ function Improvised_Sequence_or_Phrasing() {
     document.querySelector('.er8xn').dispatchEvent(ev);
 
 }
-setInterval("Improvised_Sequence_or_Phrasing()", 4000) 
-
-//#tw-src-spkr-button 
+// setInterval("Improvised_Sequence_or_Phrasing()", 4000) 
 
 function Loud() {
         document.querySelector(".m0Qfkd button").click()
 }
-setInterval("Loud()", 4000) 
+// setInterval("Loud()", 4000) 
 
-//- - - - - Change Skin
-
-document.querySelector('textarea').style.fontSize="300px";
-document.querySelector('textarea').style.position="absolute";
-document.querySelector("textarea").style.lineHeight="300px";
-document.querySelector("textarea").style.letterSpacing="20px";
-document.querySelector('textarea').style.width="1200px";
-
-//- - - - - 
 
 // BREATHING
 function Breathing() {
@@ -202,7 +181,6 @@ function Breathing() {
   currentScale = Math.random() * 5
   }, 800);
 }
-
 // Breathing()
 
 function No_Breath() {
@@ -210,21 +188,45 @@ clearInterval(currenttime);
 }
 // No_Breath()
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 //- - - - - Change Skin
 
-document.querySelector('body').style.opacity="0.5";
-document.querySelector('body').style.transform="scale(0.5)";
-document.querySelector("body").style.writingMode="vertical-lr";
-document.querySelector("body").style.textOrientation="upright";
+// document.querySelector('textarea').style.fontSize="300px";
+// document.querySelector('textarea').style.position="absolute";
+// document.querySelector("textarea").style.lineHeight="300px";
+// document.querySelector("textarea").style.letterSpacing="20px";
+// document.querySelector('textarea').style.width="1200px";
+
+//- - - - - 
+
+// document.querySelector("body").style.writingMode="vertical-lr";
+// document.querySelector("body").style.textOrientation="upright";
+
+// document.querySelector('body').style.opacity="0.5";
+
 
 function Dancing_Floor() {
     var r = Math.random() * 100;
     document.querySelector("body").style.backgroundImage="linear-gradient(" +  Math.random() * 360  + "deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-" +  Math.random() * 360  + "deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
     document.querySelector("body").style.backgroundSize= Math.random() * 10 + "px" + Math.random() * 10  + "px";
   }
-setInterval("Dancing_Floor()", 1000) 
+// setInterval("Dancing_Floor()", 1000) 
 
+
+
+function Off_Stage () {
+  document.body.innerHTML = '';
+  document.body.style.background = '#000';
+  document.head.innerHTML = '';      
+}
+// Off_Stage ()
+
+
+//- - - - - FINAL - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// - - - - - - - - - - - - - - - - - - - - -  
+// - - - - - - - - - - - - - - 
+// - - - - - 
 
 function Hablar() {
 document.querySelector("#tw-source").style.backgroundColor="#000000"
@@ -233,29 +235,6 @@ document.querySelector("#tw-source").style.backgroundColor="#000000"
 function Escuchar() {
 document.querySelector("#tw-target").style.backgroundColor = "#000000";
 } 
-
-
-function Giro () {
-    var center = document.querySelector("body"),
-    deg = 10;
-    decenter = setInterval(function() {
-    center.style.transform = "rotateY(" + deg + "deg)";
-    deg = (deg + 10) % 360
-    }, 80); 
-    } 
-//Giro ()
-
-
-function Pause () {
-    clearInterval(decenter);
-    } 
-// Pause ()  
-
-function Off_Stage () {
-    document.body.innerHTML = '';
-    document.head.innerHTML = '';      
-}
-// Off_Stage ()
 
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -520,7 +499,6 @@ pageScroll();
 */
 
 
-
 function double ( ){
 document.querySelector(".srg").style.textShadow = "600px 1px 1px #3C3C3C, 600px 300px 6px #8C8C8C";  
 document.querySelector("#rso").style.color = "white";
@@ -548,4 +526,21 @@ function Pause (){
   document.getElementById("body").style.backgroundColor = "#000000";
 //setTimeout ("BlackOut()", 200 );
 };
+
+
+// old classes:
+// #tw-source-text-ta
+//#tw-src-spkr-button 
+
+//x = document.querySelector(".gb_ve.gb_wf");
+//x.style.visibility = "hidden";
+
+//document.querySelector(".gb_Wa.gb_ec").remove();
+
+function off_stage(){
+  document.querySelector("#gt-langs").style.visibility="hidden";
+  document.querySelector(".gb_Dc.gb_Qg.gb_R").style.visibility="hidden";
+  document.querySelector("#gt-appbar").style.visibility="hidden";
+  document.querySelector("#gt-ft-res").style.visibility="hidden";
+  }
 
