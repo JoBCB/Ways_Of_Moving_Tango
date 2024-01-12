@@ -122,7 +122,7 @@ function Position_Zero () {
 // ------------------- ON MIS—TRANSLATION --------------------- 
 // on google translate, open the web console and let the dance begin:
 
-//- - - - - Change Skin
+//- - - - - DANCE FLOOR
 
 //document.querySelector("body").style.background="repeating-linear-gradient(transparent, black 40px), repeating-linear-gradient(0.25turn, transparent, black 20px)"
 
@@ -154,22 +154,22 @@ Texts[17]= "everybody."
 
 var demo_input = document.querySelector('.er8xn')
 
-function Improvised_Sequence_or_Phrasing() {
+function Improvised_Sequence_or_Phrase() {
     demo_input.value = Texts[count];
     count++;
     if(count==Texts.length){count='0';}
 
     var ev = document.createEvent('Events');
     ev.initEvent('input', true, true);
-    document.querySelector('.er8xn').dispatchEvent(ev);
+    demo_input.dispatchEvent(ev);
 
 }
-// setInterval("Improvised_Sequence_or_Phrasing()", 4000) 
+// setInterval(Improvised_Sequence_or_Phrase, 4000) 
 
 function Loud() {
         document.querySelector(".m0Qfkd button").click()
 }
-// setInterval("Loud()", 4000) 
+// setInterval(Loud, 4000) 
 
 
 // BREATHING
@@ -188,19 +188,19 @@ clearInterval(currenttime);
 }
 // No_Breath()
 
-//- - - - - Change Skin
-
-// document.querySelector('textarea').style.fontSize="300px";
-// document.querySelector('textarea').style.position="absolute";
-// document.querySelector("textarea").style.lineHeight="300px";
-// document.querySelector("textarea").style.letterSpacing="20px";
-// document.querySelector('textarea').style.width="1200px";
+function Hablar_Escuchar() {
+  document.querySelector('textarea').style.fontSize="200px";
+  document.querySelector('textarea').style.position="absolute";
+  document.querySelector("textarea").style.lineHeight="200px";
+  document.querySelector('textarea').style.width="1200px";
+  document.querySelector('textarea').style.height="600px"; 
+}
+// Hablar_Escuchar()
 
 //- - - - - 
 
 // document.querySelector("body").style.writingMode="vertical-lr";
 // document.querySelector("body").style.textOrientation="upright";
-
 // document.querySelector('body').style.opacity="0.5";
 
 
@@ -209,7 +209,7 @@ function Dancing_Floor() {
     document.querySelector("body").style.backgroundImage="linear-gradient(" +  Math.random() * 360  + "deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-" +  Math.random() * 360  + "deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
     document.querySelector("body").style.backgroundSize= Math.random() * 10 + "px" + Math.random() * 10  + "px";
   }
-// setInterval("Dancing_Floor()", 1000) 
+// setInterval(Dancing_Floor, 1000) 
 
 
 
