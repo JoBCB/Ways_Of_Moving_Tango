@@ -102,13 +102,14 @@ time:after { /* seconds */
 	function Ultima_Danza () {
 		window.open('Curtain_Moving.html', '_blank')
 		window.focus();
-		last.autoplay = true;
-		last.load();
+		// last.autoplay = true;
+		// last.load();
 	};
 
 	var aud = document.getElementById('my_audio1');
 	function Segunda_Danza() { 
 		aud.autoplay = true;
+		aud.volume = 0.7;
 		aud.loop = true;
 		aud.load();
 	}

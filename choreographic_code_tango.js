@@ -124,10 +124,9 @@ function Position_Zero () {
 
 //- - - - - DANCE FLOOR
 
-//document.querySelector("body").style.background="repeating-linear-gradient(transparent, black 40px), repeating-linear-gradient(0.25turn, transparent, black 20px)"
-
-document.querySelector("body").style.background="linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
-document.querySelector("body").style.backgroundSize="60px 60px";
+// document.querySelector("body").style.background="repeating-linear-gradient(transparent, black 40px), repeating-linear-gradient(0.25turn, transparent, black 20px)"
+// document.querySelector("body").style.background="linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
+// document.querySelector("body").style.backgroundSize="60px 60px";
 
 //- - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -172,6 +171,16 @@ function Loud() {
 // setInterval(Loud, 4000) 
 
 
+function Hablar_Escuchar() {
+  document.querySelector('textarea').style.fontSize="200px";
+  document.querySelector('textarea').style.position="absolute";
+  document.querySelector("textarea").style.lineHeight="200px";
+  document.querySelector('textarea').style.width="1200px";
+  document.querySelector('textarea').style.height="600px"; 
+}
+// Hablar_Escuchar()
+
+
 // BREATHING
 function Breathing() {
   var zooming = document.querySelector("body");
@@ -188,20 +197,12 @@ clearInterval(currenttime);
 }
 // No_Breath()
 
-function Hablar_Escuchar() {
-  document.querySelector('textarea').style.fontSize="200px";
-  document.querySelector('textarea').style.position="absolute";
-  document.querySelector("textarea").style.lineHeight="200px";
-  document.querySelector('textarea').style.width="1200px";
-  document.querySelector('textarea').style.height="600px"; 
-}
-// Hablar_Escuchar()
 
 //- - - - - 
 
 // document.querySelector("body").style.writingMode="vertical-lr";
 // document.querySelector("body").style.textOrientation="upright";
-// document.querySelector('body').style.opacity="0.5";
+//  document.querySelector("body").style.transform="skewY(30deg)"; 
 
 
 function Dancing_Floor() {
