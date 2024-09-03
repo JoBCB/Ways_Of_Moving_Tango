@@ -1,9 +1,9 @@
-//  ____ _                                                _     _                 ____          _                                               
-// / ___| |__   ___  _ __ ___  ___   __ _ _ __ __ _ _ __ | |__ (_) ___           / ___|___   __| | ___  
-//| |   | '_ \ / _ \| '__/ _ \/ _ \ / _` | '__/ _` | '_ \| '_ \| |/ __|  _____  | |   / _ \ / _` |/ _ (  
-//| |___| | | | (_) | | |  __/ (_) | (_| | | | (_| | |_) | | | | | (__  |_____| | |__| (_) | (_| |  __/  
-// \____|_| |_|\___/|_|  \___|\___/ \__, |_|  \__,_| .__/|_| |_|_|\___|          \____\___/ \__,_|\___|  
-//                                  |___/          |_|                                                                                          
+//  ____ _                                                _     _                 ____          _
+// / ___| |__   ___  _ __ ___  ___   __ _ _ __ __ _ _ __ | |__ (_) ___           / ___|___   __| | ___
+//| |   | '_ \ / _ \| '__/ _ \/ _ \ / _` | '__/ _` | '_ \| '_ \| |/ __|  _____  | |   / _ \ / _` |/ _ (
+//| |___| | | | (_) | | |  __/ (_) | (_| | | | (_| | |_) | | | | | (__  |_____| | |__| (_) | (_| |  __/
+// \____|_| |_|\___/|_|  \___|\___/ \__, |_|  \__,_| .__/|_| |_|_|\___|          \____\___/ \__,_|\___|
+//                                  |___/          |_|
 
 //a GLOSSARY for Tango
 
@@ -52,7 +52,7 @@ setTimeout("uno()",1500);
 
  function dos() {
     aWindow.moveTo(random_x1, random_y1);
-    aWindow.focus();  
+    aWindow.focus();
     anotherWindow.moveTo(random_y1, random_y1);
     anotherWindow.focus();
 }
@@ -60,7 +60,7 @@ setTimeout("dos()",2500);
 
 function tres() {
     aWindow.moveTo(random_x2, random_y1);
-    aWindow.focus();  
+    aWindow.focus();
     anotherWindow.moveTo(random_x2, random_y2);
     anotherWindow.focus();
 }
@@ -68,7 +68,7 @@ setTimeout("tres()",3500);
 
 function quatro() {
     aWindow.moveTo(random_x1, random_y2);
-    aWindow.focus();  
+    aWindow.focus();
     anotherWindow.moveTo(random_x1, random_y2);
     anotherWindow.focus();
 }
@@ -76,7 +76,7 @@ setTimeout("quatro()",10000);
 
 function cinco() {
     aWindow.moveTo(random_X, random_Y);
-    aWindow.focus();  
+    aWindow.focus();
     anotherWindow.moveTo(random_X, random_y1);
     anotherWindow.focus();
 }
@@ -84,7 +84,7 @@ setTimeout("cinco()",11000);
 
 function seis() {
     aWindow.moveTo( random_x1, random_y2);
-    aWindow.focus();  
+    aWindow.focus();
     anotherWindow.moveTo(random_x1, random_y2);
     anotherWindow.focus();
 }
@@ -92,7 +92,7 @@ setTimeout("seis()",12000);
 
 function sete() {
     aWindow.moveTo(random_X, random_y2);
-    aWindow.focus();  
+    aWindow.focus();
     anotherWindow.moveTo(random_X, random_y2);
     anotherWindow.focus();
 }
@@ -100,11 +100,11 @@ setTimeout("sete()",13500);
 
 function ocho() {
     aWindow.moveTo(random_x2, random_y2);
-    aWindow.focus();  
+    aWindow.focus();
     anotherWindow.moveTo(random_x2, random_y2);
     anotherWindow.focus();
 }
-setTimeout("ocho()",15000); 
+setTimeout("ocho()",15000);
 
 
 function Position_Zero () {
@@ -113,18 +113,18 @@ function Position_Zero () {
   url.focus();
 }
 
-//- - - - 
+//- - - -
 //- - - - -  - - - - -
 //- - - - -  - - - - - - - - - - - -
-//- - - - -  - - - - - - - - - - - - - - - - - - 
+//- - - - -  - - - - - - - - - - - - - - - - - -
 //- - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// ------------------- ON MIS—TRANSLATION --------------------- 
+// ------------------- ON MIS—TRANSLATION ---------------------
 // on google translate, open the web console and let the dance begin:
 
 //- - - - - DANCE FLOOR
 
-// document.querySelector("body").style.background="repeating-linear-gradient(transparent, black 40px), repeating-linear-gradient(0.25turn, transparent, black 20px)"
+// document.querySelector("body").style.background="repeating-linear-gradient(transparent, white 20px), repeating-linear-gradient(0.25turn, transparent, black 20px)"
 // document.querySelector("body").style.background="linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
 // document.querySelector("body").style.backgroundSize="60px 60px";
 
@@ -136,20 +136,21 @@ Texts[0]= "A dialogue, pronouncing no words",
 Texts[1]= "the resounding silence,",
 Texts[2]= "echoes",
 Texts[3]= "spaceless",
-Texts[4]= "and timeless choreographies.",
+Texts[4]= "and timeless choreographies",
 Texts[5]= "A complex network of plural directions and rhythms",
 Texts[6]= "temporal horizon of virtual possibilities",
 Texts[7]= "A language in circulation,",
-Texts[8]= "a language that introduces you to a movement,",
-Texts[9]= " invites you to respond",
-Texts[10]= "nomadic.",
-Texts[11]= "Su forma universal y que esa especie venturosa tiene,",
+Texts[8]= "a movement",
+Texts[9]= "invites you to respond",
+Texts[10]= "nomadic",
+Texts[11]= "su forma universal y que esa especie venturosa tiene,",
 Texts[12]= "aunque humilde, un lugar en el universo.",
 Texts[13]= "the unfilled, gaps between steps",
-Texts[14]= "Self and Other - crossing territories,",
+Texts[14]= "self and other - crossing territories,",
 Texts[15]= "two bodies",
-Texts[16]= "bodies, too",
-Texts[17]= "everybody."
+Texts[16]= "uno mas uno en el Tango no es dos si no que es uno",
+Texts[17]= "bodies, too",
+Texts[18]= "everybody."
 
 var demo_input = document.querySelector('.er8xn')
 
@@ -163,12 +164,12 @@ function Improvised_Sequence_or_Phrase() {
     demo_input.dispatchEvent(ev);
 
 }
-// setInterval(Improvised_Sequence_or_Phrase, 4000) 
+// setInterval(Improvised_Sequence_or_Phrase, 4000)
 
 function Loud() {
         document.querySelector(".m0Qfkd button").click()
 }
-// setInterval(Loud, 4000) 
+// setInterval(Loud, 4000)
 
 
 function Hablar_Escuchar() {
@@ -176,7 +177,7 @@ function Hablar_Escuchar() {
   document.querySelector('textarea').style.position="absolute";
   document.querySelector("textarea").style.lineHeight="200px";
   document.querySelector('textarea').style.width="1200px";
-  document.querySelector('textarea').style.height="600px"; 
+  document.querySelector('textarea').style.height="600px";
 }
 // Hablar_Escuchar()
 
@@ -198,52 +199,52 @@ clearInterval(currenttime);
 // No_Breath()
 
 
-//- - - - - 
+//- - - - -
 
 // document.querySelector("body").style.writingMode="vertical-lr";
 // document.querySelector("body").style.textOrientation="upright";
-//  document.querySelector("body").style.transform="skewY(30deg)"; 
+//  document.querySelector("body").style.transform="skewY(30deg)";
 
 
 function Dancing_Floor() {
     var r = Math.random() * 100;
     document.querySelector("body").style.backgroundImage="linear-gradient(" +  Math.random() * 360  + "deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(-" +  Math.random() * 360  + "deg, black 25%, transparent 25%, transparent 75%, black 75%, black)";
-    document.querySelector("body").style.backgroundSize= Math.random() * 10 + "px" + Math.random() * 10  + "px";
+    document.querySelector("body").style.backgroundSize= Math.random() * 50 + "px" + Math.random() * 50  + "px";
   }
-// setInterval(Dancing_Floor, 1000) 
+// setInterval(Dancing_Floor, 1000)
 
 
 
 function Off_Stage () {
   document.body.innerHTML = '';
   document.body.style.background = '#000';
-  document.head.innerHTML = '';      
+  document.head.innerHTML = '';
 }
 // Off_Stage ()
 
 
-//- - - - - FINAL - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+//- - - - - FINAL - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// - - - - - - - - - - - - - - - - - - - - -  
-// - - - - - - - - - - - - - - 
-// - - - - - 
+// - - - - - - - - - - - - - - - - - - - - -
+// - - - - - - - - - - - - - -
+// - - - - -
 
 function Hablar() {
 document.querySelector("#tw-source").style.backgroundColor="#000000"
-} 
+}
 
 function Escuchar() {
 document.querySelector("#tw-target").style.backgroundColor = "#000000";
-} 
+}
 
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 function double (){
-document.querySelector(".gt-cd.gt-cd-md").style.textShadow = "650px 0.1px 0.1px #000000";  
-document.querySelector(".gt-cc-l").style.width= "1600px";  
-}; 
+document.querySelector(".gt-cd.gt-cd-md").style.textShadow = "650px 0.1px 0.1px #000000";
+document.querySelector(".gt-cc-l").style.width= "1600px";
+};
 //double()
 
 
@@ -251,13 +252,6 @@ function Giro() {
 document.querySelector(".gt-cc-l").style.transform="rotate(7deg)"
 }
 //setTimeout("Giro()",8000);
-
-
-
-function Body_Language() {
-document.querySelector("body").style.background = "url(http://pzwart1.wdka.hro.nl/~jo/background.gif)";  
-document.querySelector("#gt-main").style.display="none";  
-} 
 
 function BlackOut(){
   document.querySelector("#gt-main").style.backgroundColor = "#000000";
@@ -349,7 +343,7 @@ function Dance(){
         count++;
         if(count==Texts.length){count='0';}
         setTimeout("Dance()",delay*800);
-} 
+}
 Dance()
 
 
@@ -372,7 +366,7 @@ Dance()
 //document.querySelector("#gt-main").style.display="none”;
 
 
-//setTimeout(Elements_of_Chance, 1000) 
+//setTimeout(Elements_of_Chance, 1000)
 // USE::::::::: setInterval(Elements_of_Chance, 100)   and then clearInterval(number printed in the console)
 
 //onload = function() { One();}
@@ -399,7 +393,7 @@ Dance()
 
 
 var aud = document.getElementById('my_audio1');
-function sound1() { 
+function sound1() {
     aud.autoplay = true;
     aud.load();
 }
@@ -421,15 +415,15 @@ function pauseAudio1() {
 
 // segunda:
 function Caminata() {
-  var elem = document.querySelector(".logocont");   
+  var elem = document.querySelector(".logocont");
   var pos = 0;
   var id = setInterval(frame, 10);
   function frame() {
     if (pos == 350) {
       clearInterval(id);
     } else {
-      pos++; 
-      elem.style.top = pos + 'px'; 
+      pos++;
+      elem.style.top = pos + 'px';
     }
   }
 }
@@ -492,7 +486,7 @@ function pageScroll() {
 pageScroll();
 
 
-/*— on google search: “Poética del Tango”; 
+/*— on google search: “Poética del Tango”;
 “タンゴの詩学”;  - https://www.google.com.ar/search?q=%E3%82%BF%E3%83%B3%E3%82%B4%E3%81%AE%E8%A9%A9%E5%AD%A6&ie=utf-8&oe=utf-8&client=firefox-b&gfe_rd=cr&ei=ZzPLV6-_OYXX8gfN7ICQDA
 “Poetics of Tango”;  - https://www.google.com.ar/search?q=poetics+of+Tango&ie=utf-8&oe=utf-8&client=firefox-b&gfe_rd=cr&ei=mDPLV4LBG4XX8gfN7ICQDA
 “runousoppi tango”; - https://www.google.com.ar/search?q=poesia+do+tango&ie=utf-8&oe=utf-8&client=firefox-b&gfe_rd=cr&ei=8TPLV607hdfyB83sgJAM#q=runousoppi+tango
@@ -501,7 +495,7 @@ pageScroll();
 
 
 function double ( ){
-document.querySelector(".srg").style.textShadow = "600px 1px 1px #3C3C3C, 600px 300px 6px #8C8C8C";  
+document.querySelector(".srg").style.textShadow = "600px 1px 1px #3C3C3C, 600px 300px 6px #8C8C8C";
 document.querySelector("#rso").style.color = "white";
 }; double()
 
@@ -531,7 +525,7 @@ function Pause (){
 
 // old classes:
 // #tw-source-text-ta
-//#tw-src-spkr-button 
+//#tw-src-spkr-button
 
 //x = document.querySelector(".gb_ve.gb_wf");
 //x.style.visibility = "hidden";
@@ -545,3 +539,58 @@ function off_stage(){
   document.querySelector("#gt-ft-res").style.visibility="hidden";
   }
 
+
+/*
+
+
+_________  ___  ___  ________  ________   ___  __
+|\___   ___\\  \|\  \|\   __  \|\   ___  \|\  \|\  \
+\|___ \  \_\ \  \\\  \ \  \|\  \ \  \\ \  \ \  \/  /|_
+    \ \  \ \ \   __  \ \   __  \ \  \\ \  \ \   ___  \
+     \ \  \ \ \  \ \  \ \  \ \  \ \  \\ \  \ \  \\ \  \
+      \ \__\ \ \__\ \__\ \__\ \__\ \__\\ \__\ \__\\ \__\
+       \|__|  \|__|\|__|\|__|\|__|\|__| \|__|\|__| \|__|
+
+
+
+ ___    ___ ________  ___  ___  ___
+|\  \  /  /|\   __  \|\  \|\  \|\  \
+\ \  \/  / | \  \|\  \ \  \\\  \ \  \
+ \ \    / / \ \  \\\  \ \  \\\  \ \  \
+  \/  /  /   \ \  \\\  \ \  \\\  \ \__\
+__/  / /      \ \_______\ \_______\|__|
+|\___/ /        \|_______|\|_______|   ___
+\|___|/                               |\__\
+                                     \|__|
+
+
+ */
+
+// This evening performance is dedicated to my family who is in the audience <3
+
+
+// SOUNDTRACK CREDIT: eerie (aka Sebastian Pappalardo)
+
+// TEXT FRAGMENT FROM: Politics of Touch: Sense, Movement, Sovereignty by Erin Manning
+
+
+// "Ways of Moving: Tango" is project/ research by Joana Chicau first developed in 2016, in Argentina.
+// This project was realized as part of the Summer Sessions network in a co-production of Untref, Espacio Nixso and V2_ Lab for the Unstable Media, 
+// with support of the Creative Industries Fund NL.
+// A special thank you to the art community in Buenos Aires: Leo Nuñez, Laura Nieves, Yisell Sarasua, Marlin Velasco, Marcelo Terreni, 
+// Alejandra Ceriani, Emiliano Causa, Paula Guersenzvaig and the tango dancers Luciana Rial and Daniel Sansotta.
+// Thank you for all who have been keeping this project ‘alive’: Renee Carmichael who shares a passion for coding in heels, 
+// to the toplap and ICLC peers, to the V2_ team, to Sarah Grant, The Critical Engineering Working Group and the Piksel team and 
+// last but not least to Sofia Ponte, Maria Luís Neiva and the team at CAA.
+
+
+
+
+
+
+
+
+
+
+
+//
